@@ -1,4 +1,4 @@
-## ReSkilling - Todo list
+## Re Skilling - Todo list
 
 ### Execução do projeto
 
