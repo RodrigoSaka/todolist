@@ -27,7 +27,14 @@ Aplicação deve ser capaz de:
 **Detalhes**
 
 - **URL base:** http://localhost:3001/todos
-- **Métodos que será usado:** `GET`, `POST`, `PATCH` e `DELETE`.
+- **Métodos que será usado:** 
+  - `GET`: `http://localhost:3001/todos` ou `http://localhost:3001/todos/<id>`
+  - `POST`: `http://localhost:3001/todos`
+  - `PATCH`: `http://localhost:3001/todos`
+  - `DELETE`: `http://localhost:3001/todos/<id>`
+  - `GET / Filter`: `http://localhost:3001/todos?completed=false`
+
+> **Atenção:** ao executar algum método de alteração de conteúdo, será refletido no arquivo `api/db.json`
 
 **Retorno**
 
